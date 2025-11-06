@@ -1,5 +1,8 @@
 /// <reference types="w3c-web-usb" />
 
+// Based on https://github.com/DeqingSun/ch55xduino/blob/ch55xduino/bootloaderWebtool/ch55xbl.js
+// Huge thank you to DeqingSun for this work!
+
 // ===== Helpers =====
 const toHex = (n: number) => `0x${n.toString(16)}`;
 function errorMessage(err: unknown): string {

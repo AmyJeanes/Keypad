@@ -2,6 +2,6 @@
 {
 	public class Settings
 	{
-		public string FirmwarePath { get; set; }
+		public required string FirmwarePath { get; set; }
 	}
 }
